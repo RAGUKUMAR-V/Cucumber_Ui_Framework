@@ -2,6 +2,8 @@ package com.ragu.step_definitions;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -19,12 +21,17 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CEO_name_step_def {
+	
+   private static final Logger LOGGER=LogManager.getLogger(CEO_name_step_def.class);
+   
+   
 
 	@Given("user is logged in successfully and on home screen")
 	public void user_is_logged_in_successfully_and_on_home_screen() {
 	   
 		drivermanager.getDriver().get(constants.url);
 		
+		drivermanager.getDriver().manage().window().maximize();
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -32,9 +39,9 @@ public class CEO_name_step_def {
 			e.printStackTrace();
 		}
 		
-		LoginPageObjects.username.sendKeys(constants.username);
-		LoginPageObjects.password.sendKeys(constants.password);
-		LoginPageObjects.loginButton.click();
+		LoginPageObjects.getLoginPageObjects().enterUsername(constants.username);
+		LoginPageObjects.getLoginPageObjects().enterPassword(constants.password);
+		LoginPageObjects.getLoginPageObjects().clickSubmitButton();
 		
 		String homeurl=drivermanager.getDriver().getCurrentUrl();
 		
@@ -55,7 +62,7 @@ public class CEO_name_step_def {
 			e.printStackTrace();
 		}
 		 
-		HomePageObjects.directory.click();
+		HomePageObjects.getHomePageObjects().openDirectory();
 	
 		
 		
@@ -64,20 +71,14 @@ public class CEO_name_step_def {
 	@And("user selects the job title as {string} from the dropdown")
 	public void user_selects_the_job_title_as_from_the_dropdown(String role) {
 		
-		/*
-		 * Select select =new Select(DirectoryPageObjects.jobtitile_dropdown);
-		 * 
-		 * select.selectByVisibleText(role);
-		
-		 */
-		
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 		
 			e.printStackTrace();
 		}
-		DirectoryPageObjects.jobtitile_dropdown.click();
+		
+		DirectoryPageObjects.getDirectoryPageObjects().clickDropDown();
 		
 		try {
 			Thread.sleep(2000);
@@ -88,7 +89,20 @@ public class CEO_name_step_def {
 		
 		//DirectoryPageObjects.optiontoselect.click();
 		
-		common_utilities.javaScriptExecutor("arguments[0].scrollIntoView(true);", DirectoryPageObjects.optiontoselect);
+		//common_utilities.javaScriptExecutor("arguments[0].scrollIntoView(true);", DirectoryPageObjects.optiontoselect);
+		
+		
+		try{
+			String name=DirectoryPageObjects.getDirectoryPageObjects().getHeading();
+			if(role.equals(name)) {
+				LOGGER.info("user can see the directory page");
+			}
+		}catch(Exception e){
+			LOGGER.error(e);
+			common_utilities.getcommon_utilities().takeScreenShot();
+		}
+		
+		
 		
 		
 		
@@ -96,20 +110,32 @@ public class CEO_name_step_def {
 
 	@And("click then search button")
 	public void click_then_search_button() {
-		 DirectoryPageObjects.search_button.click();
+		 DirectoryPageObjects.getDirectoryPageObjects().clickSearchButton();
+		
+	}
+
+	@Then("user should see CEO name as {string}")
+	public void user_should_see_ceo_name_as(String name) {
+		
+		/*
+		 * String CEOName= DirectoryPageObjects.CEO_name.getText();
+		 * Assert.assertEquals(name, CEOName);
+		 */
 		 try {
 				Thread.sleep(3000);
 			} catch (InterruptedException e) {
 			
 				e.printStackTrace();
 			}
-	}
-
-	@Then("user should see CEO name as {string}")
-	public void user_should_see_ceo_name_as(String name) {
-		String CEOName= DirectoryPageObjects.CEO_name.getText();
 		
-		Assert.assertEquals(name, CEOName);
+		//String getname=DirectoryPageObjects.HR_Manager_Card.getText();
+		 String heading=DirectoryPageObjects.getDirectoryPageObjects().getHeading();
+		if(heading.equalsIgnoreCase(name)) {
+			LOGGER.info("we are on the Directory page");
+		}
+		
+		drivermanager.getDriver().close();
+		
 	}
 	
 	

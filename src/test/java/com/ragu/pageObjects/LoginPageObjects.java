@@ -3,17 +3,45 @@ package com.ragu.pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPageObjects {
+import com.ragu.utilities.common_utilities;
 
+public class LoginPageObjects {
+	
+	private static LoginPageObjects loginpageinstance;
+	
+	private LoginPageObjects() {
+		
+	}
+	
+	public static LoginPageObjects getLoginPageObjects() {
+		if(loginpageinstance==null) {
+			loginpageinstance=new LoginPageObjects();
+		}
+		return loginpageinstance;
+	}
 	
 	@FindBy(xpath = "//input[@name='username']")
-	public static WebElement username;
+	private WebElement username;
 	
 	@FindBy(xpath = "//input[@name='password']")
-	public static WebElement password;
+	private WebElement password;
 	
 	@FindBy(xpath = "//button[@type='submit']")
-	public static WebElement loginButton;
+	private WebElement loginButton; 
 	
+	public void enterUsername(String USERNAME) {
+		common_utilities.getcommon_utilities().highlightElements(username);
+		username.sendKeys(USERNAME); 
+	}
+	
+    public void enterPassword(String PASSWORD) {
+    	common_utilities.getcommon_utilities().highlightElements(password);
+		password.sendKeys(PASSWORD); 
+	}
+    
+    public void clickSubmitButton() {
+    	common_utilities.getcommon_utilities().highlightElements(loginButton);
+    	loginButton.click(); 
+	}
 	
 }

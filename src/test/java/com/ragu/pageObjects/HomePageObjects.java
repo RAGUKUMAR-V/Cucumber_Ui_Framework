@@ -5,12 +5,26 @@ import org.openqa.selenium.support.FindBy;
 
 public class HomePageObjects {
 
+	private static HomePageObjects homepageinstance;
 	
+	private HomePageObjects() {
+		
+	}
+	
+	public static HomePageObjects getHomePageObjects() {
+		if(homepageinstance==null) {
+			homepageinstance=new HomePageObjects();
+		}
+		return homepageinstance;
+	}
 	
 	@FindBy(xpath="//span[text()='Directory']")
-	public static WebElement directory;
-	
-	
+	private WebElement directory;
+
+	public void openDirectory() {
+		
+		directory.click();
+	}
 	
 	
 }
