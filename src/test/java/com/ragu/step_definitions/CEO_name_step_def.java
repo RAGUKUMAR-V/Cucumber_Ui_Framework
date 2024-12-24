@@ -100,6 +100,7 @@ public class CEO_name_step_def {
 		}catch(Exception e){
 			LOGGER.error(e);
 			common_utilities.getcommon_utilities().takeScreenShot();
+			Assert.fail(e.getMessage());
 		}
 		
 		

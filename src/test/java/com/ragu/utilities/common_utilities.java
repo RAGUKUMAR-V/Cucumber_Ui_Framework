@@ -7,11 +7,14 @@ import java.io.IOException;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.ragu.constants.constants;
 import com.ragu.pageObjects.DirectoryPageObjects;
@@ -22,7 +25,7 @@ import com.ragu.webdrivermanager.drivermanager;
 
 public class common_utilities {
 	
-	
+	private static final Logger LOGGER=LogManager.getLogger(common_utilities.getcommon_utilities());
 	private static common_utilities utilitiesInstance=null;
 	
 	private common_utilities() {
@@ -87,5 +90,25 @@ public class common_utilities {
 		js.executeScript("arguments[0].setAttribute('style', 'border :3px solid blue');", element);
 	}
 	
+	public void selectFromDropdown(WebElement element, String howToSelect, String whatToSelect) {
+		Select select=new Select(element);
+		switch (howToSelect) {
+		case "Text":
+			select.selectByVisibleText(whatToSelect);
+			break;
+		case "Index":
+			select.selectByIndex(Integer.parseInt(whatToSelect));
+
+			break;
+		case "Value":
+			select.selectByValue(whatToSelect);
+
+			break;
+
+		default:
+			LOGGER.info("Provide the valid Selects, Those are: Text, Index, Value");
+			break;
+		}
+	}
 	
 }

@@ -18,3 +18,39 @@
 2024-12-24 00:41:54,528 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
 2024-12-24 00:41:54,528 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
 2024-12-24 00:41:54,528 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:19:42,106 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2024-12-24 13:19:42,149 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2024-12-24 13:19:42,150 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2024-12-24 13:19:42,155 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:19:42,156 [INFO ] com.ragu.step_definitions.common_step_def [main] driver is null and invoking the chrome browser
+2024-12-24 13:19:43,404 [INFO ] com.ragu.webdrivermanager.drivermanager [main] Launchingchrome
+2024-12-24 13:19:54,987 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2024-12-24 13:19:54,987 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2024-12-24 13:19:54,987 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2024-12-24 13:19:54,987 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:21:19,068 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2024-12-24 13:21:19,070 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2024-12-24 13:21:19,070 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2024-12-24 13:21:19,072 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:21:19,073 [INFO ] com.ragu.step_definitions.common_step_def [main] driver is null and invoking the chrome browser
+2024-12-24 13:21:19,400 [INFO ] com.ragu.webdrivermanager.drivermanager [main] Launchingchrome
+2024-12-24 13:21:30,229 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2024-12-24 13:21:30,230 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2024-12-24 13:21:30,256 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2024-12-24 13:21:30,257 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:27:42,095 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2024-12-24 13:27:42,097 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2024-12-24 13:27:42,097 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2024-12-24 13:27:42,098 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:27:42,099 [INFO ] com.ragu.step_definitions.common_step_def [main] driver is null and invoking the chrome browser
+2024-12-24 13:27:42,466 [INFO ] com.ragu.webdrivermanager.drivermanager [main] Launchingchrome
+2024-12-24 13:27:53,640 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2024-12-24 13:27:53,641 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2024-12-24 13:27:53,641 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2024-12-24 13:27:53,641 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:31:36,679 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2024-12-24 13:31:36,680 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2024-12-24 13:31:36,680 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2024-12-24 13:31:36,682 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2024-12-24 13:31:36,682 [INFO ] com.ragu.step_definitions.common_step_def [main] driver is null and invoking the chrome browser
+2024-12-24 13:31:37,050 [INFO ] com.ragu.webdrivermanager.drivermanager [main] Launchingchrome
