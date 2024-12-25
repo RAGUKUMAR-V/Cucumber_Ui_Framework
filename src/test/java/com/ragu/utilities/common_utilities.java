@@ -112,9 +112,14 @@ public class common_utilities {
 		}
 	}
 	
-	public void alertHandling() {
+	public void alertHandlingAccept() {
 		Alert alert=drivermanager.getDriver().switchTo().alert();
 		alert.accept();
+	}
+	
+	public void alertHandlingDismiss() {
+		Alert alert=drivermanager.getDriver().switchTo().alert();
+		alert.dismiss();
 	}
 	
 }
