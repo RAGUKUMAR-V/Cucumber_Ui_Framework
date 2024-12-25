@@ -126,7 +126,7 @@ public class common_utilities {
 	
 	public void moveToElement(WebElement element) {
 		Actions action=new Actions(drivermanager.getDriver());
-		action.moveToElement(element);
+		action.moveToElement(element).build().perform();
 	}
 	
 }
