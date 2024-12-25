@@ -9,6 +9,7 @@ import java.util.Properties;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -109,6 +110,11 @@ public class common_utilities {
 			LOGGER.info("Provide the valid Selects, Those are: Text, Index, Value");
 			break;
 		}
+	}
+	
+	public void alertHandling() {
+		Alert alert=drivermanager.getDriver().switchTo().alert();
+		alert.accept();
 	}
 	
 }
