@@ -13,7 +13,9 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
@@ -120,6 +122,11 @@ public class common_utilities {
 	public void alertHandlingDismiss() {
 		Alert alert=drivermanager.getDriver().switchTo().alert();
 		alert.dismiss();
+	}
+	
+	public void moveToElement(WebElement element) {
+		Actions action=new Actions(drivermanager.getDriver());
+		action.moveToElement(element);
 	}
 	
 }
