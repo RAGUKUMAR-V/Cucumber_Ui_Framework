@@ -31,7 +31,6 @@ public class drivermanager {
 			case "safari":
 				WebDriverManager.safaridriver().setup();
 				break;
-
 			default:
 				WebDriverManager.chromedriver().setup();
 				LOGGER.info("Launching"+constants.browser);

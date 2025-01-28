@@ -13,7 +13,7 @@ public class LoginPageObjects {
 		
 	}
 	
-	public static LoginPageObjects getLoginPageObjects() {
+	public static LoginPageObjects getLoginPageinstance() {
 		if(loginpageinstance==null) {
 			loginpageinstance=new LoginPageObjects();
 		}

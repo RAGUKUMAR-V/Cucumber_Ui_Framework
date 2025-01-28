@@ -66,7 +66,7 @@ public class common_utilities {
 	}
 	
 	public void initElements() {
-		PageFactory.initElements(drivermanager.getDriver(), LoginPageObjects.getLoginPageObjects());
+		PageFactory.initElements(drivermanager.getDriver(), LoginPageObjects.getLoginPageinstance());
 		PageFactory.initElements(drivermanager.getDriver(), HomePageObjects.getHomePageObjects());
 		PageFactory.initElements(drivermanager.getDriver(), DirectoryPageObjects.getDirectoryPageObjects());
 	}

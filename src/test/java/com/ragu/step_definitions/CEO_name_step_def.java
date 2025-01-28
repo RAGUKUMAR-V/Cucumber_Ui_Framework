@@ -39,9 +39,9 @@ public class CEO_name_step_def {
 			e.printStackTrace();
 		}
 		
-		LoginPageObjects.getLoginPageObjects().enterUsername(constants.username);
-		LoginPageObjects.getLoginPageObjects().enterPassword(constants.password);
-		LoginPageObjects.getLoginPageObjects().clickSubmitButton();
+		LoginPageObjects.getLoginPageinstance().enterUsername(constants.username);
+		LoginPageObjects.getLoginPageinstance().enterPassword(constants.password);
+		LoginPageObjects.getLoginPageinstance().clickSubmitButton();
 		
 		String homeurl=drivermanager.getDriver().getCurrentUrl();
 		
@@ -135,7 +135,7 @@ public class CEO_name_step_def {
 			LOGGER.info("we are on the Directory page");
 		}
 		
-		drivermanager.getDriver().close();
+	//	drivermanager.getDriver().close();
 		
 	}
 	
