@@ -6,10 +6,11 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features="src/test/resources/features",
+		features="src/test/resources/features/Practice.feature",
 		glue="com.ragu.step_definitions",
 		monochrome = true,
-		plugin= {"rerun:target/failed_scenarios.txt"}
+		tags= "@Sanity and @Regression"
+		
 			
 		)
 

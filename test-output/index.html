@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Ragukumar\AppData\Local\Temp\testng-eclipse-803953378\testng-customsuite.xml</span>
+                    <span>C:\Users\Ragukumar\AppData\Local\Temp\testng-eclipse--662913510\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test_Runner.TestNG_TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Login with valid credentials", "Optional[Login functionality]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +118,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test_Runner.TestNG_TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify the HR Manager name&quot;, &quot;Optional[This is used to get CEO name from OrangeHRM app]&quot;)">runScenario("To verify the HR Manager name", "Optional[This is used to get CEO name from OrangeHRM app]")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Test_Runner.TestNG_TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;To verify the HR Manager is having pending timsheet&quot;, &quot;Optional[This is used to check pending times...)">runScenario("To verify the HR Manager is having pending timsheet", "Optional[This is used to check pending times...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Test_Runner.TestNG_TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Search with multiple keywords&quot;, &quot;Optional[Login functionality]&quot;)">runScenario("Search with multiple keywords", "Optional[Login functionality]")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -124,6 +133,29 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Test_Runner.TestNG_TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login with valid credentials&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Login with valid credentials", "Optional[Login functionality]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login with valid credentials", "Optional[Login functionality]")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at com.ragu.step_definitions.Practice.the_users_try_to_login(Practice.java:43)
+	at ✽.the users try to login(file:///C:/Users/Ragukumar/eclipse-workspace/ui_cucumber_project/src/test/resources/features/Practice.feature:8)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -132,20 +164,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;To verify the HR Manager name&quot;, &quot;Optional[This is used to get CEO name from OrangeHRM app]&quot;)">
-                  </a> <!-- runScenario("To verify the HR Manager name", "Optional[This is used to get CEO name from OrangeHRM app]") -->
+                  <a name="runScenario(&quot;Search with multiple keywords&quot;, &quot;Optional[Login functionality]&quot;)">
+                  </a> <!-- runScenario("Search with multiple keywords", "Optional[Login functionality]") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("To verify the HR Manager name", "Optional[This is used to get CEO name from OrangeHRM app]")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;To verify the HR Manager is having pending timsheet&quot;, &quot;Optional[This is used to check pending times...)">
-                  </a> <!-- runScenario("To verify the HR Manager is having pending timsheet", "Optional[This is used to check pending times...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("To verify the HR Manager is having pending timsheet", "Optional[This is used to check pending timesheet]")</span>
+                  <span class="parameters">("Search with multiple keywords", "Optional[Login functionality]")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -155,7 +177,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Ragukumar\AppData\Local\Temp\testng-eclipse-803953378\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Ragukumar\AppData\Local\Temp\testng-eclipse--662913510\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -216,16 +238,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'Test_Runner.TestNG_TestRunner')
-data.setCell(0, 3, 19527);
+data.setCell(0, 3, 3235);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'Test_Runner.TestNG_TestRunner')
-data.setCell(1, 3, 33);
+data.setCell(1, 3, 7);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -257,16 +279,18 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("To verify the HR Manager name", "Optional[This is used to get CEO name from OrangeHRM app]")</span>
-                <span class="method-start">237 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login with valid credentials", "Optional[Login functionality]")</span>
+                <span class="method-start">226 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">runScenario("To verify the HR Manager is having pending timsheet", "Optional[This is used to check pending times...)</span>
-                <span class="method-start">19764 ms</span>
+                <span class="method-name">runScenario("Search with multiple keywords", "Optional[Login functionality]")</span>
+                <span class="method-start">3463 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">19797 ms</span>
+                <span class="method-start">3473 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

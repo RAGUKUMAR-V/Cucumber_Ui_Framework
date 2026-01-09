@@ -15,6 +15,7 @@ public class drivermanager {
 	
 	private static WebDriver driver=null;
 	private static final Logger LOGGER=LogManager.getLogger(drivermanager.class);
+	
 	public static void browserstart() {
 		
 		try {

@@ -20,7 +20,7 @@ public class common_step_def {
 	private static String scenarioName=null;
 	
 	
-	
+	 
 	public static String getScenarioName() {
 		return scenarioName;
 	}

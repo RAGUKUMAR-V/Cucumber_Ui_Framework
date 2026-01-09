@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import com.ragu.utilities.common_utilities;
 
-public class LoginPageObjects {
+public final class LoginPageObjects {
 	
 	private static LoginPageObjects loginpageinstance;
 	

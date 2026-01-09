@@ -1,52 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-25T17:11:51 IST" name="Default suite" finished-at="2024-12-25T17:12:11 IST" duration-ms="19848">
+  <suite started-at="2025-05-04T23:28:34 IST" name="Default suite" finished-at="2025-05-04T23:28:37 IST" duration-ms="3510">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-12-25T17:11:51 IST" name="Default test" finished-at="2024-12-25T17:12:11 IST" duration-ms="19848">
+    <test started-at="2025-05-04T23:28:34 IST" name="Default test" finished-at="2025-05-04T23:28:37 IST" duration-ms="3510">
       <class name="Test_Runner.TestNG_TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2024-12-25T17:11:51 IST" name="setUpClass" finished-at="2024-12-25T17:11:51 IST" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2025-05-04T23:28:34 IST" name="setUpClass" finished-at="2025-05-04T23:28:34 IST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2024-12-25T17:11:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-25T17:12:11 IST" duration-ms="19527" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2025-05-04T23:28:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-04T23:28:37 IST" duration-ms="3235" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["To verify the HR Manager name"]]>
+                <![CDATA["Login with valid credentials"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[This is used to get CEO name from OrangeHRM app]"]]>
+                <![CDATA["Optional[Login functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at com.ragu.step_definitions.Practice.the_users_try_to_login(Practice.java:43)
+at ✽.the users try to login(file:///C:/Users/Ragukumar/eclipse-workspace/ui_cucumber_project/src/test/resources/features/Practice.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2025-05-04T23:28:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-04T23:28:37 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search with multiple keywords"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login functionality]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2024-12-25T17:12:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-25T17:12:11 IST" duration-ms="33" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["To verify the HR Manager is having pending timsheet"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[This is used to check pending timesheet]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2024-12-25T17:12:11 IST" name="tearDownClass" finished-at="2024-12-25T17:12:11 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Test_Runner.TestNG_TestRunner@4567f35d]" started-at="2025-05-04T23:28:37 IST" name="tearDownClass" finished-at="2025-05-04T23:28:37 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
