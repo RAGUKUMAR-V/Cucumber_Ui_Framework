@@ -1,10 +1,122 @@
-2025-05-04 23:28:35,077 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
-2025-05-04 23:28:35,085 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
-2025-05-04 23:28:35,085 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
-2025-05-04 23:28:35,086 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
-2025-05-04 23:28:35,087 [INFO ] com.ragu.step_definitions.common_step_def [main] driver is null and invoking the chrome browser
-2025-05-04 23:28:36,355 [INFO ] com.ragu.webdrivermanager.drivermanager [main] Launchingchrome
-2025-05-04 23:28:37,656 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
-2025-05-04 23:28:37,656 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
-2025-05-04 23:28:37,657 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
-2025-05-04 23:28:37,657 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2026-01-10 02:20:09,850 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Execution started
+2026-01-10 02:20:09,857 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Instantiating the common_utilities class
+2026-01-10 02:20:09,857 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Loading Property files
+2026-01-10 02:20:09,858 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] checking driver is null or not
+2026-01-10 02:20:09,859 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] driver is null and invoking the chrome browser
+2026-01-10 02:20:13,380 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-0] Launchingchrome
+2026-01-10 16:11:35,986 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-3] Execution started
+2026-01-10 16:11:35,989 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-3] Instantiating the common_utilities class
+2026-01-10 16:11:35,989 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-3] Loading Property files
+2026-01-10 16:11:35,985 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Execution started
+2026-01-10 16:11:35,986 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Execution started
+2026-01-10 16:11:35,989 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Instantiating the common_utilities class
+2026-01-10 16:11:35,990 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Loading Property files
+2026-01-10 16:11:35,986 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Execution started
+2026-01-10 16:11:35,990 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Instantiating the common_utilities class
+2026-01-10 16:11:35,990 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Instantiating the common_utilities class
+2026-01-10 16:11:35,990 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Loading Property files
+2026-01-10 16:11:35,990 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Loading Property files
+2026-01-10 16:11:35,992 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] checking driver is null or not
+2026-01-10 16:11:35,993 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] checking driver is null or not
+2026-01-10 16:11:35,993 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-3] checking driver is null or not
+2026-01-10 16:11:35,993 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-3] driver is null and invoking the chrome browser
+2026-01-10 16:11:35,993 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] checking driver is null or not
+2026-01-10 16:11:35,994 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] driver is null and invoking the chrome browser
+2026-01-10 16:11:35,993 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] driver is null and invoking the chrome browser
+2026-01-10 16:11:35,993 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] driver is null and invoking the chrome browser
+2026-01-10 16:11:37,506 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-1] Launchingchrome
+2026-01-10 16:11:37,506 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-3] Launchingchrome
+2026-01-10 16:11:37,511 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-0] Launchingchrome
+2026-01-10 16:11:37,542 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-2] Launchingchrome
+2026-01-10 16:13:43,897 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Execution started
+2026-01-10 16:13:43,899 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Instantiating the common_utilities class
+2026-01-10 16:13:43,899 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Loading Property files
+2026-01-10 16:13:43,901 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] checking driver is null or not
+2026-01-10 16:13:43,901 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] driver is null and invoking the chrome browser
+2026-01-10 16:13:44,291 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-0] Launchingchrome
+2026-01-10 16:22:53,955 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Execution started
+2026-01-10 16:22:53,955 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Execution started
+2026-01-10 16:22:53,955 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Execution started
+2026-01-10 16:22:53,958 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Instantiating the common_utilities class
+2026-01-10 16:22:53,958 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Instantiating the common_utilities class
+2026-01-10 16:22:53,958 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Loading Property files
+2026-01-10 16:22:53,958 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Instantiating the common_utilities class
+2026-01-10 16:22:53,959 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Loading Property files
+2026-01-10 16:22:53,959 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Loading Property files
+2026-01-10 16:22:53,961 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] checking driver is null or not
+2026-01-10 16:22:53,961 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] checking driver is null or not
+2026-01-10 16:22:53,962 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] checking driver is null or not
+2026-01-10 16:22:53,962 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] driver is null and invoking the chrome browser
+2026-01-10 16:22:53,963 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] driver is null and invoking the chrome browser
+2026-01-10 16:22:53,963 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] driver is null and invoking the chrome browser
+2026-01-10 16:22:54,323 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-2] Launchingchrome
+2026-01-10 16:22:54,325 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-0] Launchingchrome
+2026-01-10 16:22:54,327 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-1] Launchingchrome
+2026-01-10 16:29:50,365 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Execution started
+2026-01-10 16:29:50,365 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Execution started
+2026-01-10 16:29:50,365 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Execution started
+2026-01-10 16:29:50,368 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Instantiating the common_utilities class
+2026-01-10 16:29:50,368 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Loading Property files
+2026-01-10 16:29:50,368 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Instantiating the common_utilities class
+2026-01-10 16:29:50,369 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Instantiating the common_utilities class
+2026-01-10 16:29:50,369 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Loading Property files
+2026-01-10 16:29:50,369 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Loading Property files
+2026-01-10 16:29:50,371 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] checking driver is null or not
+2026-01-10 16:29:50,372 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] checking driver is null or not
+2026-01-10 16:29:50,372 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] checking driver is null or not
+2026-01-10 16:29:50,373 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] driver is null and invoking the chrome browser
+2026-01-10 16:29:50,374 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] driver is null and invoking the chrome browser
+2026-01-10 16:29:50,373 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] driver is null and invoking the chrome browser
+2026-01-10 16:29:50,768 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-2] Launchingchrome
+2026-01-10 16:29:50,768 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-0] Launchingchrome
+2026-01-10 16:29:50,770 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-1] Launchingchrome
+2026-01-10 16:31:17,200 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Execution started
+2026-01-10 16:31:17,200 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Execution started
+2026-01-10 16:31:17,200 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Execution started
+2026-01-10 16:31:17,202 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Instantiating the common_utilities class
+2026-01-10 16:31:17,202 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Instantiating the common_utilities class
+2026-01-10 16:31:17,202 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Instantiating the common_utilities class
+2026-01-10 16:31:17,203 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] Loading Property files
+2026-01-10 16:31:17,203 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] Loading Property files
+2026-01-10 16:31:17,203 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] Loading Property files
+2026-01-10 16:31:17,205 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] checking driver is null or not
+2026-01-10 16:31:17,205 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] checking driver is null or not
+2026-01-10 16:31:17,205 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] checking driver is null or not
+2026-01-10 16:31:17,205 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-2] driver is null and invoking the chrome browser
+2026-01-10 16:31:17,206 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-0] driver is null and invoking the chrome browser
+2026-01-10 16:31:17,206 [INFO ] com.ragu.step_definitions.common_step_def [TestNG-PoolService-1] driver is null and invoking the chrome browser
+2026-01-10 16:31:17,586 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-1] Launchingchrome
+2026-01-10 16:31:17,592 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-2] Launchingchrome
+2026-01-10 16:31:17,592 [INFO ] com.ragu.webdrivermanager.drivermanager [TestNG-PoolService-0] Launchingchrome
+2026-01-10 16:34:19,106 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2026-01-10 16:34:19,107 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2026-01-10 16:34:19,107 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2026-01-10 16:34:19,109 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2026-01-10 16:34:19,109 [INFO ] com.ragu.step_definitions.common_step_def [main] driver is null and invoking the chrome browser
+2026-01-10 16:34:19,493 [INFO ] com.ragu.webdrivermanager.drivermanager [main] Launchingchrome
+2026-01-10 16:34:42,181 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2026-01-10 16:34:42,181 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2026-01-10 16:34:42,191 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2026-01-10 16:34:42,191 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2026-01-10 16:34:50,271 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2026-01-10 16:34:50,275 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2026-01-10 16:34:50,275 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2026-01-10 16:34:50,276 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2026-01-10 16:50:13,598 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2026-01-10 16:50:13,600 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2026-01-10 16:50:13,600 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2026-01-10 16:50:13,601 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2026-01-10 16:50:13,602 [INFO ] com.ragu.step_definitions.common_step_def [main] driver is null and invoking the chrome browser
+2026-01-10 16:50:13,967 [INFO ] com.ragu.webdrivermanager.drivermanager [main] Launchingchrome
+2026-01-10 16:50:41,024 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2026-01-10 16:50:41,025 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2026-01-10 16:50:41,026 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2026-01-10 16:50:41,028 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2026-01-10 16:50:49,377 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2026-01-10 16:50:49,378 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2026-01-10 16:50:49,378 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2026-01-10 16:50:49,378 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not
+2026-01-10 16:50:57,706 [INFO ] com.ragu.step_definitions.common_step_def [main] Execution started
+2026-01-10 16:50:57,706 [INFO ] com.ragu.step_definitions.common_step_def [main] Instantiating the common_utilities class
+2026-01-10 16:50:57,706 [INFO ] com.ragu.step_definitions.common_step_def [main] Loading Property files
+2026-01-10 16:50:57,707 [INFO ] com.ragu.step_definitions.common_step_def [main] checking driver is null or not

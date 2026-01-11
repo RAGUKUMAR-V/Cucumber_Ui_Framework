@@ -14,6 +14,10 @@ public class drivermanager {
 
 	
 	private static WebDriver driver=null;
+	
+	//private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+	
+	
 	private static final Logger LOGGER=LogManager.getLogger(drivermanager.class);
 	
 	public static void browserstart() {
@@ -25,6 +29,10 @@ public class drivermanager {
 				WebDriverManager.chromedriver().setup();
 				LOGGER.info("Launching"+constants.browser);
 				driver=new ChromeDriver();
+				
+				
+		      // driver.set( new ChromeDriver());
+		        
 				break;
 			case "firefox":
 				WebDriverManager.firefoxdriver().setup();
@@ -36,6 +44,8 @@ public class drivermanager {
 				WebDriverManager.chromedriver().setup();
 				LOGGER.info("Launching"+constants.browser);
 				driver=new ChromeDriver();
+				
+				// driver.set( new ChromeDriver());
 				break;
 			}
 			
@@ -47,5 +57,7 @@ public class drivermanager {
 	}
 	public static WebDriver getDriver() {
 		return driver;
+		
+		//return driver.get();
 	}
 }
