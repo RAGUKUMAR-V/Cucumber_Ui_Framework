@@ -10,7 +10,12 @@ import io.cucumber.testng.CucumberOptions;
 		
 		features="src/test/resources/features/Login.feature",
 		glue="com.ragu.step_definitions",
-		monochrome = true
+		monochrome = true,
+				  plugin = {
+					        "pretty",
+					        "junit:target/cucumber-reports/cucumber.xml",
+					        "html:target/cucumber-reports/cucumber.html"
+					    }
 		//tags= "@Sanity and @Regression"
 		
 			
